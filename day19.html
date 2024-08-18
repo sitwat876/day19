@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #141414;
+            color: #ffffff;
+        }
+        .navbar {
+            background-color: #000000;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .navbar img {
+            width: 100px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+        .movie-list {
+            display: flex;
+            overflow-x: scroll;
+            padding: 10px 0;
+        }
+        .movie {
+            margin-right: 10px;
+            text-align: center;
+        }
+        .movie img {
+            display: block;
+            width: 150px;
+            height: 225px;
+            object-fit: cover;
+        }
+        .movie p {
+            margin: 5px 0 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Netflix_logo.svg" alt="Netflix Logo">
+    </div>
+    <div class="container">
+        <div class="section">
+            <h2>Trending Now</h2>
+            <div class="movie-list">
+                <div class="movie">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.vnVbymBEyV4PyHwXGT2W7AHaHa&pid=Api&P=0&h=220" alt="Movie 1">
+                    <p>Strnger things</p>
+                </div>
+                
+            </div>
+        </div>
+        <div class="section">
+            <h2>Popular on Netflix</h2>
+            <div class="movie-list">
+                <div class="movie">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.7JlzcWh5dPwsm0Xy_PddDgHaHa&pid=Api&P=0&h=220" alt="Movie 6">
+                    <p>Enola homes</p>
+                </div>
+                <div class="movie">
+                    <img src="https://vi.com/150x225?text=Movie+7" alt="Movie 7">
+                    <p>Dabbe</p>
+                </div>
+                <div class="movie">
+                    <img src="https://via.placeholder.com/150x225?text=Movie+8" alt="Movie 8">
+                    <p>Qodrat</p>
+                </div>
+                <div class="movie">
+                    <img src="https://via.placeholder.com/150x225?text=Movie+9" alt="Movie 9">
+                    <p>Goblit</p>
+                </div>
+                <div class="movie">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.rzOJSuuR3Ouj7mFASdVGhQHaLH&pid=Api&P=0&h=220" alt="Movie 10">
+                    <p>Harry potter</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
